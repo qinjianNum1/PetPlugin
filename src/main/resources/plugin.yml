@@ -1,0 +1,11 @@
+name: Petplugin
+main: mainclass.Main
+version: 1.0.0
+depend:
+  - Vault
+commands:
+  store_opened:
+    description: "打开商店"
+    usage: "/<command> store_opened"
+    permission: "player"
+    permission-message: "你没有权限使用当前命令!"
